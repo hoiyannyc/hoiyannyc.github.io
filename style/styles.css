@@ -37,7 +37,7 @@ header {
 
 /* Hero image */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("/images/hero-image.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url('/images/hero-image.jpg');
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
