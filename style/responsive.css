@@ -1,0 +1,137 @@
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+      width: auto;
+    }
+
+    .header_container {
+      min-width: 600px;
+    }
+  
+    header {
+      padding-bottom: 4rem;
+    }
+  
+    .navbar {
+      width: 100%;
+      display: flex;
+      bottom: 0;
+      justify-content: space-between;
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+  
+    .navbar ul {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .navbar_ul li {
+      padding: 5px 15px 15px 10px;
+      background-color: transparent;
+    }
+  
+    .header_container {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-bottom: 15px;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .header_container img {
+      max-width: 300px;
+    }
+  
+    .header_container p {
+      max-width: 350px;
+      text-align: left;
+    }
+  
+    /* Service section at 768 */
+    .portfolio_container {
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      max-width: 1165px;
+    }
+    
+
+    /* Footer at 768px */
+    footer {
+      display: flex;
+      align-items: center;
+    }
+  
+    .phone,
+    .email {
+      margin-right: 8px;
+    }
+  }
+  
+  /* min width 1024 */
+  @media screen and (min-width: 1024px) {
+    .navbar,
+    .navbar_ul,
+    .header_container {
+      display: flex;
+    }
+  
+    .navbar {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .navbar_ul {
+      flex-direction: row;
+    }
+  
+    .navbar_ul li {
+      background-color: transparent;
+    }
+  
+    .header_container {
+      flex-direction: row-reverse;
+      margin-bottom: 15px;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .header_container img {
+      max-width: 600px;
+    }
+  
+    .header_text {
+      max-width: 400px;
+      text-align: center;
+    }
+  
+    /* Portfolio section */
+    .portfolio_container {
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 1500px) {
+    body {
+      max-width: 1500px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .portfolio_container {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    iframe {
+      max-width: 360px;
+      height: auto;
+    }
+    .main-accordion {
+      max-width: 360px;
+    }
+  }
+  
