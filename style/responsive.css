@@ -147,6 +147,11 @@
       font-size: small;
     }
 
+    .header_container img {
+      width: 100%;
+      padding: 30px;
+    }
+
     .portfolio_container {
       width: 100%;
       align-items: center;
