@@ -128,10 +128,36 @@
     }
     iframe {
       max-width: 360px;
-      height: auto;
+      width: auto;
+      height: 100%;
+      padding: auto;
+      align-items: center;
     }
+
     .main-accordion {
-      max-width: 360px;
+      max-width: 460px;
+    }
+
+    .hero-image {
+      min-height: 30px;
+      padding: 10px;
+    }
+
+    .hero-text {
+      width: 100%;
+      font-size: small;
+    }
+
+    .portfolio_container {
+      width: 100%;
+      align-items: center;
+    }
+
+    footer p {
+      font-size: small;
+    }
+    .accordion-header {
+      font-size: medium;
+      line-height: 2rem;
     }
   }
-  
