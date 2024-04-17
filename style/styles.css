@@ -270,3 +270,8 @@ footer p {
   padding-bottom: 1rem;
   margin: 0 auto;
 }
+
+.copyright {
+  text-align: center;
+  padding-top: 1rem;
+}
